@@ -152,3 +152,32 @@ a:hover{
     width: 100%;
     height: 100vh;
 }
+
+@media (max-width: 1450px){
+
+    main {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        width: 100%;
+      }
+
+    .lol{
+        background-image: url(imagens/lol-riot.png);
+        background-size: calc(90%);
+        background-position: bottom;
+        background-position-x: 100%;
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 1200px){
+    main {
+        height: 100vh;
+    }
+
+    .lol{
+        display: none;
+    }
+}
