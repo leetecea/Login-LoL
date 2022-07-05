@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    min-width: 544px;
+}
+
+.riot{ 
+   width: 13em;
+   object-fit: cover;
+}
+
+.form p{
+    font-size: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 83px;
+}
+
+fieldset{
+    border: none;
+    position: relative;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E6E6;
+    border-radius: 5px;
+    margin-top: 23px;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #716E6E;
+    width: 26em;
+    padding: 10px;
+}
+
+input{
+    position: relative;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+    background-color: #E8E6E6;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 44px;
+}
+
+.social figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100px;
+    height: 43px;
+}
+
+.facebook{
+    background-color: #2051FF;
+}
+
+.apple{
+    background-color: #000000;
+}
+
+.google{
+    background-color: #8A0000;
+}
+
+.facebook img, .apple img, .google img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.check{
+    margin-top: 28px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 64%;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+button{
+    margin-top: 136px;
+    width: 3.1em;
+    height: 2.9em;
+    background-color: #FF002E;
+    border-radius: 10px;
+    border: none;
+    transition: .5s all;
+}
+
+button:hover{
+    border: 2px solid #000000;
+}
+
+button img{
+    object-fit: cover;
+    width: 27px;
+    height: 27px;
+}
+
+a{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 0.75em;
+    color: #A6A6A6;
+    transition: 1s all;
+}
+
+a:hover{
+    color: #000000;
+    font-size: 0.8em;
+}
+
+.lol {
+    background-image: url(imagens/LoL.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: calc(88%);
+    width: 100%;
+    height: 100vh;
+}
